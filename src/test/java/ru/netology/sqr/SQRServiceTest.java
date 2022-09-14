@@ -13,6 +13,7 @@ public class SQRServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @org.junit.jupiter.api.Test
     void negativerange() {
         SQRService service = new SQRService();
